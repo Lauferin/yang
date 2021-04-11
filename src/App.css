@@ -1,38 +1,53 @@
 .App {
-  text-align: center;
+    /* background-color: #282c34; */ /*in the body of index*/
+    margin: 15px;
+    text-align: center;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.instructions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.instructions-create {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.instructions-insert {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+.aclarations {
+    padding-top:40px;
+    margin: auto;
+    width: 50%;
+}
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer {
+    position: absolute;
+    bottom: 20px;
+    font-size: 9px;
+    font-style: italic;
+    width:100%;
+    text-align: center;
+}
+
+h1 {
+    color: #F4B648;
+    font-family: 'Droid serif', serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 44px;
+    margin: 0 0 12px;
+    text-align: center;
 }

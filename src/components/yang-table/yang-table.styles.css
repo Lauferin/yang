@@ -1,0 +1,28 @@
+.yang-div {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.yang-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+    
+}
+
+.yang-table td, #yang-table th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.yang-table tr:nth-child(even){background-color: #727272;}
+
+.yang-table tr:hover {background-color: #bbbbbb;}
+
+.yang-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
